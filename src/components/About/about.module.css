@@ -1,0 +1,59 @@
+.aboutContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutGif {
+  height: 30%;
+}
+.aboutGif img {
+  height: 100%;
+  width: 100%;
+}
+.aboutTech {
+  height: 10%;
+  width: 100%;
+}
+.aboutTech ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.aboutTech li {
+  list-style: none;
+  margin: 0px 20px;
+  font-size: 40px;
+}
+.aboutInfo {
+  height: 60%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutInfo p {
+  margin: 15px 0px;
+}
+.footer {
+  margin-bottom: 10px;
+}
+@media all and (max-width: 600px) {
+  .aboutContainer {
+    height: 250%;
+  }
+  .aboutTech li {
+    margin: 10px;
+    font-size: 26px;
+  }
+  .aboutInfo {
+    width: 90%;
+    height: 65%;
+  }
+  .aboutInfo p {
+    margin: 15px 0px;
+    font-size: 15px;
+  }
+}
