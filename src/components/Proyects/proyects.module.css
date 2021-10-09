@@ -4,15 +4,8 @@
   flex-direction: column;
   align-items: center;
 }
-.proyectGif {
-  height: 30%;
-}
-.proyectGif img {
-  height: 100%;
-  width: 100%;
-}
 .proyectContent {
-  height: 70%;
+  height: 100%;
   width: 100%;
 }
 
@@ -26,7 +19,7 @@
 
 .individualProyect {
   width: 20%;
-  height: 95%;
+  height: 70%;
   margin: 20px 50px;
   background-color: white;
   color: black;
@@ -57,7 +50,7 @@
   }
   .individualProyect {
     width: 90%;
-    height: 60%;
+    height: 50%;
     margin: 20px 20px;
   }
   .individualProyect h2 {
@@ -76,7 +69,7 @@
   }
   .individualProyect {
     width: 90%;
-    height: 80%;
+    height: 70%;
   }
   .individualProyect h2 {
     font-size: 36px;
@@ -94,6 +87,6 @@
   }
   .individualProyect {
     width: 30%;
-    height: 60%;
+    height: 50%;
   }
 }

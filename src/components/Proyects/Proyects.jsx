@@ -7,9 +7,6 @@ const Proyects = () => {
 
   return (
     <div className={style.proyectsContainer}>
-      <div className={style.proyectGif}>
-        <img src={gif} alt='gif' />
-      </div>
       <div className={style.proyectContent}>
         <ProyectList />
       </div>
